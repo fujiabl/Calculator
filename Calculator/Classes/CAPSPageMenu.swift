@@ -19,7 +19,6 @@
 
 import UIKit
 
-
 @objc public protocol CAPSPageMenuDelegate {
     // MARK: - Delegate functions
     

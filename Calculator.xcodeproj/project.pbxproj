@@ -12,6 +12,7 @@
 		F4A05CCE1D9B8FC3005619E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A05CCC1D9B8FC3005619E6 /* Main.storyboard */; };
 		F4A05CD01D9B8FC3005619E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A05CCF1D9B8FC3005619E6 /* Assets.xcassets */; };
 		F4A05CD31D9B8FC3005619E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A05CD11D9B8FC3005619E6 /* LaunchScreen.storyboard */; };
+		F4A05CDC1D9BA5A8005619E6 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A05CDB1D9BA5A8005619E6 /* CAPSPageMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F4A05CCF1D9B8FC3005619E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A05CD21D9B8FC3005619E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A05CD41D9B8FC3005619E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A05CDB1D9BA5A8005619E6 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				F4A05CC71D9B8FC3005619E6 /* Calculator */,
+				F4A05CDA1D9BA5A8005619E6 /* Classes */,
 				F4A05CC61D9B8FC3005619E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +65,15 @@
 				F4A05CD41D9B8FC3005619E6 /* Info.plist */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		F4A05CDA1D9BA5A8005619E6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4A05CDB1D9BA5A8005619E6 /* CAPSPageMenu.swift */,
+			);
+			name = Classes;
+			path = Calculator/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +150,7 @@
 			files = (
 				F4A05CCB1D9B8FC3005619E6 /* ViewController.swift in Sources */,
 				F4A05CC91D9B8FC3005619E6 /* AppDelegate.swift in Sources */,
+				F4A05CDC1D9BA5A8005619E6 /* CAPSPageMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +310,7 @@
 				F4A05CD91D9B8FC3005619E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
